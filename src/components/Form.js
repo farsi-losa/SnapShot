@@ -5,6 +5,9 @@ const Form = ({ handleSubmit, history }) => {
   // update search text state
   const updateSearchInput = e => {
     setSearchEntry(e.target.value);
+    if(window.ReactNativeWebView){
+      window.ReactNativeWebView.postMessage(e.target.value)
+    }
   };
   return (
     <form
