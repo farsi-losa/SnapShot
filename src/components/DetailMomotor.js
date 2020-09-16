@@ -11,72 +11,72 @@ const DetailMomotor = () => {
       }
       
     return <><div id="section-product-details-nmcy">
-        {/* <div class="col-md-12"> */}
-        {/* <div class="row"> */}
-            <ul class="custom-breadcrumb">
-                <li><a href="/" id="ember634" class="ember-view">Beranda</a></li>
-                <li><a href="/motor-baru/yamaha" id="ember635" class="ember-view">Yamaha</a></li>
+        {/* <div className="col-md-12"> */}
+        {/* <div className="row"> */}
+            <ul className="custom-breadcrumb">
+                <li><a href="/" id="ember634" className="ember-view">Beranda</a></li>
+                <li><a href="/motor-baru/yamaha" id="ember635" className="ember-view">Yamaha</a></li>
                 <li>X-MAX</li>
             </ul>
         {/* </div> */}
         {/* </div> */}
-        <div class="products-spec-nmcy-outer-wrapper">
-            {/* <div class="row"> */}
-                {/* <div class="col-md-9"> */}
-                    <div class="products-spec-nmcy-wrapper">
-                        <div class="products-spec-image-wrapper">
-                            <img class="img-fluid" src="https://assets.adira.one/motor/assets/nmcy/xmax/xmax-colored-black-big.png" alt="main-image" />
+        <div className="products-spec-nmcy-outer-wrapper">
+            {/* <div className="row"> */}
+                {/* <div className="col-md-9"> */}
+                    <div className="products-spec-nmcy-wrapper">
+                        <div className="products-spec-image-wrapper">
+                            <img className="img-fluid" src="https://assets.adira.one/motor/assets/nmcy/xmax/xmax-colored-black-big.png" alt="main" />
                         </div>
-                        <div class="products-spec-wrapper">
-                            <div class="products-spec-title-wrapper">
-                                <p class="products-spec-subtitle margin-top-title">Yamaha</p>
-                                <h1 class="products-spec-title">X-MAX</h1>
+                        <div className="products-spec-wrapper">
+                            <div className="products-spec-title-wrapper">
+                                <p className="products-spec-subtitle margin-top-title">Yamaha</p>
+                                <h1 className="products-spec-title">X-MAX</h1>
                             </div>
-                            <div class="products-spec-title-wrapper">
-                                <div class="products-spec-title-inner-wrapper">
-                                    <p class="products-spec-subtitle">Mulai dari</p>
-                                    <h1 class="products-spec-price">Rp 61,475,000</h1>
+                            <div className="products-spec-title-wrapper">
+                                <div className="products-spec-title-inner-wrapper">
+                                    <p className="products-spec-subtitle">Mulai dari</p>
+                                    <h1 className="products-spec-price">Rp 61,475,000</h1>
                                 </div>
-                                <div class="products-spec-title-inner-wrapper">
-                                    <p class="products-spec-subtitle-bold">Lokasi</p>
-                                    <h1 class="products-spec-title highligts">Jakarta</h1>
+                                <div className="products-spec-title-inner-wrapper">
+                                    <p className="products-spec-subtitle-bold">Lokasi</p>
+                                    <h1 className="products-spec-title highligts">Jakarta</h1>
                                 </div>
                             </div>
                         </div>
-                        <div class="images-thumbnail">
-                            <ul class="images-thumbnail-group">
-                                <li class="images-thumbnail-list">
-                                    <img src="https://assets.adira.one/motor/assets/nmcy/xmax/xmax-slider-hazard-lamp.png" class="img-fluid" />
+                        <div className="images-thumbnail">
+                            <ul className="images-thumbnail-group">
+                                <li className="images-thumbnail-list">
+                                    <img src="https://assets.adira.one/motor/assets/nmcy/xmax/xmax-slider-hazard-lamp.png" className="img-fluid" alt="main" />
                                 </li>
-                                <li class="images-thumbnail-list">
-                                    <img src="https://assets.adira.one/motor/assets/nmcy/xmax/xmax-slider-multifunction-speedometer.png" class="img-fluid" />
+                                <li className="images-thumbnail-list">
+                                    <img src="https://assets.adira.one/motor/assets/nmcy/xmax/xmax-slider-multifunction-speedometer.png" className="img-fluid" alt="main"/>
                                 </li>
-                                <li class="images-thumbnail-list">
-                                    <img src="https://assets.adira.one/motor/assets/nmcy/xmax/xmax-slider-adjustable-windshield-&amp;-handlebars-position.png" class="img-fluid" />
+                                <li className="images-thumbnail-list">
+                                    <img src="https://assets.adira.one/motor/assets/nmcy/xmax/xmax-slider-adjustable-windshield-&amp;-handlebars-position.png" className="img-fluid" alt="main"/>
                                 </li>
-                                <li class="images-thumbnail-list images-thumbnail-number">
-                                    <div class="number-layer">+6</div>
+                                <li className="images-thumbnail-list images-thumbnail-number">
+                                    <div className="number-layer">+6</div>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 {/* </div> */}
-                {/* <div class="col-md-3"> */}
-                    <div class="products-variant-nmyc-wrapper">
-                        <div class="products-variant-inner-wrapper">
-                            <p class="products-variant-title">Varian Motor</p>
-                            <ul class="product-variant-type">
-                                <li class="variant-type-list highlights active">X-MAX
+                {/* <div className="col-md-3"> */}
+                    <div className="products-variant-nmyc-wrapper">
+                        <div className="products-variant-inner-wrapper">
+                            <p className="products-variant-title">Varian Motor</p>
+                            <ul className="product-variant-type">
+                                <li className="variant-type-list highlights active">X-MAX
                                 </li>
                             </ul>
                         </div>
-                        <div class="products-colors-inner-wrapper">
-                            <p class="products-variant-title">Warna</p>
-                            <ul class="product-variant-colors">
-                                <li class="variant-colors-list spec black active"></li>
-                                <li class="variant-colors-list spec blue "></li>
-                                <li class="variant-colors-list spec red "></li>
-                                <li class="variant-colors-list spec silver "></li>
+                        <div className="products-colors-inner-wrapper">
+                            <p className="products-variant-title">Warna</p>
+                            <ul className="product-variant-colors">
+                                <li className="variant-colors-list spec black active"></li>
+                                <li className="variant-colors-list spec blue "></li>
+                                <li className="variant-colors-list spec red "></li>
+                                <li className="variant-colors-list spec silver "></li>
                             </ul>
                         </div>
                     </div>
@@ -85,14 +85,14 @@ const DetailMomotor = () => {
         </div>
     </div>
 
-    <nav class="navbar fixed-bottom navbar-expand-sm navbar-light bg-light sticky-product-navs">
-        {/* <div class="container"> */}
-            <div class="button-wrapper">
+    <nav className="navbar fixed-bottom navbar-expand-sm navbar-light bg-light sticky-product-navs">
+        {/* <div className="container"> */}
+            <div className="button-wrapper">
 
-                <button class="btn btn-outline-primary btn-block font-weight-bold">
+                <button className="btn btn-outline-primary btn-block font-weight-bold">
                     <span>Tukar Tambah</span>
                 </button>
-                <button onClick={() => nextPath()} class="btn btn-primary btn-block font-weight-bold gtm-button-ajukan-motorbaru-yamaha">Ajukan Pembiayaan</button>
+                <button onClick={() => nextPath()} className="btn btn-primary btn-block font-weight-bold gtm-button-ajukan-motorbaru-yamaha">Ajukan Pembiayaan</button>
 
             </div>
             
