@@ -1,0 +1,16 @@
+.search-form .forminput{
+  padding: 12px;
+  text-align: left;
+}
+.search-form .forminput input{
+  box-sizing: border-box;
+}
+.search-form .forminput .label{
+  margin-bottom: 4px;
+}
+.search-form .submit-button{
+  padding: 18px 12px;
+  box-sizing: border-box;
+  margin: 12px;
+  font-size: 18px;
+}

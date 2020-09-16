@@ -1,7 +1,9 @@
 body {
   text-align: center;
-  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat",sans-serif;
   color: #3f4850;
+  padding-top: 0 !important;
+  margin: 0;
 }
 
 .forkongithub a {
@@ -48,7 +50,7 @@ h2 {
 }
 
 h1 {
-  font-family: "Lobster", "Josefin Sans", Helvetica, Arial, sans-serif;
+  /* font-family: "Lobster", "Josefin Sans", Helvetica, Arial, sans-serif; */
   font-size: 4em;
   color: #051c33;
 }
@@ -75,6 +77,7 @@ a {
 
 .search-form {
   max-width: 460px;
+  flex-direction: column;
   display: flex;
   margin: 0 auto 32px;
 }
@@ -83,7 +86,7 @@ a {
   outline: none;
   border: none;
   padding: 0px 15px;
-  border-radius: 0 0.35em 0.35em 0;
+  border-radius: 0.35em;
   cursor: pointer;
 }
 
@@ -98,8 +101,8 @@ input {
   background-color: #edeff0;
   padding: 10px 15px;
   border: 3px solid #d7dbdf;
-  border-right: none;
-  border-radius: 0.35em 0 0 0.35em;
+  /* border-right: none; */
+  border-radius: 0.35em;
   outline: none;
 }
 

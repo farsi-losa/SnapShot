@@ -2,8 +2,10 @@ import React, { Component } from "react";
 import PhotoContextProvider from "./context/PhotoContext";
 import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 import Header from "./components/Header";
-import Item from "./components/Item";
-import Search from "./components/Search";
+import DetailMomotor from "./components/DetailMomotor";
+import FormMomotor from "./components/FormMomotor";
+// import Item from "./components/Item";
+// import Search from "./components/Search";
 import NotFound from "./components/NotFound";
 
 class App extends Component {
@@ -18,9 +20,9 @@ class App extends Component {
 
   render() {
     return (
-      <PhotoContextProvider>
-        <HashRouter basename="/SnapScout">
-          <div className="container">
+      // <PhotoContextProvider>
+        <HashRouter>
+          {/* <div className="container"> */}
             <Route
               render={props => (
                 <Header
@@ -33,10 +35,20 @@ class App extends Component {
               <Route
                 exact
                 path="/"
-                render={() => <Redirect to="/mountain" />}
+                render={() => <Redirect to="/detail" />}
               />
 
               <Route
+                path="/detail"
+                render={() => <DetailMomotor />}
+              />
+
+              <Route
+                path="/formmomotor"
+                render={() => <FormMomotor />}
+              />
+
+              {/* <Route
                 path="/mountain"
                 render={() => <Item searchTerm="mountain" />}
               />
@@ -48,12 +60,12 @@ class App extends Component {
                 render={props => (
                   <Search searchTerm={props.match.params.searchInput} />
                 )}
-              />
+              /> */}
               <Route component={NotFound} />
             </Switch>
-          </div>
+          {/* </div> */}
         </HashRouter>
-      </PhotoContextProvider>
+      // </PhotoContextProvider>
     );
   }
 }
