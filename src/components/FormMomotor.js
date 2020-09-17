@@ -20,7 +20,7 @@ const FormMomotor = ({ handleSubmit, history }) => {
         setDataCustom(data)
         console.log(dataCustom)
         if (window.ReactNativeWebView) {
-            window.ReactNativeWebView.postMessage(data)
+            window.ReactNativeWebView.postMessage(JSON.stringify(data))
             // setNama("")
             // setNoKTP("")
             // setKelurahan("")
