@@ -4,7 +4,6 @@ const FormMomotor = ({ handleSubmit, history }) => {
     const [nama, setNama] = useState("");
     const [noktp, setNoKTP] = useState("");
     const [kelurahan, setKelurahan] = useState("");
-    const [dataCustom, setDataCustom] = useState({})
     // update search text state
     const OnSubmit = () => {
         // setSearchEntry(e.target.value);
@@ -16,14 +15,11 @@ const FormMomotor = ({ handleSubmit, history }) => {
                 kelurahan
             }
         }
-        console.log('data', data)
-        setDataCustom(data)
-        console.log(dataCustom)
         if (window.ReactNativeWebView) {
             window.ReactNativeWebView.postMessage(JSON.stringify(data))
-            // setNama("")
-            // setNoKTP("")
-            // setKelurahan("")
+            setNama("")
+            setNoKTP("")
+            setKelurahan("")
         }
     };
     return (<>
@@ -35,8 +31,6 @@ const FormMomotor = ({ handleSubmit, history }) => {
                 <img src="https://assets.adira.one/motor/assets/revamp-icons/back_mobile.svg" alt="back"/>Kembali
                 </a>
             </div>
-            {console.log(dataCustom)}
-    {dataCustom.attributes && <>{dataCustom.attributes.nama} || {dataCustom.attributes.noktp} || {dataCustom.attributes.kelurahan} </> }
             <h3>Form pengajuan</h3>
             <div className="forminput">
                 <div className="label">
