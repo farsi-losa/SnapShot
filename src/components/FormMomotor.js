@@ -9,9 +9,12 @@ const FormMomotor = ({ handleSubmit, history }) => {
     const OnSubmit = () => {
         // setSearchEntry(e.target.value);
         let data = {
-            nama: nama,
-            noktp: noktp,
-            kelurahan
+            type: 'momotor',
+            attributes: {
+                nama,
+                noktp,
+                kelurahan
+            }
         }
         setData(data)
         if (window.ReactNativeWebView) {
@@ -19,13 +22,14 @@ const FormMomotor = ({ handleSubmit, history }) => {
         }
     };
     return (<>
-    <br/>
-        {data.nama && <>nama: {data.nama} | 
-        No KTP: {data.noktp} |
-        Kelurahan: {data.kelurahan}</>}
         <div
             className="search-form"
-        >
+        >   <div className="back-button">
+                <a href="/" id="ember565" className="ember-view"> 
+                <img src="https://assets.adira.one/motor/assets/revamp-icons/back_mobile.svg"/>Kembali
+                </a>
+            </div>
+            <h3>Form pengajuan</h3>
             <div className="forminput">
                 <div className="label">
                     Nama

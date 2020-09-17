@@ -23,14 +23,14 @@ class App extends Component {
       // <PhotoContextProvider>
         <HashRouter>
           {/* <div className="container"> */}
-            <Route
+            {/* <Route
               render={props => (
                 <Header
                   handleSubmit={this.handleSubmit}
                   history={props.history}
                 />
               )}
-            />
+            /> */}
             <Switch>
               <Route
                 exact

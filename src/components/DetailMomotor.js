@@ -13,11 +13,11 @@ const DetailMomotor = () => {
     return <><div id="section-product-details-nmcy">
         {/* <div className="col-md-12"> */}
         {/* <div className="row"> */}
-            <ul className="custom-breadcrumb">
+            {/* <ul className="custom-breadcrumb">
                 <li><a href="/" id="ember634" className="ember-view">Beranda</a></li>
                 <li><a href="/motor-baru/yamaha" id="ember635" className="ember-view">Yamaha</a></li>
                 <li>X-MAX</li>
-            </ul>
+            </ul> */}
         {/* </div> */}
         {/* </div> */}
         <div className="products-spec-nmcy-outer-wrapper">
