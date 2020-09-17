@@ -19,6 +19,9 @@ const FormMomotor = ({ handleSubmit, history }) => {
         // setData(data)
         if (window.ReactNativeWebView) {
             window.ReactNativeWebView.postMessage(data)
+            setNama("")
+            setNoKTP("")
+            setKelurahan("")
         }
     };
     return (<>
