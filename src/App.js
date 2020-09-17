@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import PhotoContextProvider from "./context/PhotoContext";
 import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
-import Header from "./components/Header";
+// import Header from "./components/Header";
 import DetailMomotor from "./components/DetailMomotor";
 import FormMomotor from "./components/FormMomotor";
 // import Item from "./components/Item";

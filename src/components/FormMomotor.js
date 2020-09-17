@@ -4,7 +4,7 @@ const FormMomotor = ({ handleSubmit, history }) => {
     const [nama, setNama] = useState("");
     const [noktp, setNoKTP] = useState("");
     const [kelurahan, setKelurahan] = useState("");
-    const [data, setData] = useState({})
+    // const [data, setData] = useState({})
     // update search text state
     const OnSubmit = () => {
         // setSearchEntry(e.target.value);
@@ -16,7 +16,7 @@ const FormMomotor = ({ handleSubmit, history }) => {
                 kelurahan
             }
         }
-        setData(data)
+        // setData(data)
         if (window.ReactNativeWebView) {
             window.ReactNativeWebView.postMessage(data)
         }
@@ -26,7 +26,7 @@ const FormMomotor = ({ handleSubmit, history }) => {
             className="search-form"
         >   <div className="back-button">
                 <a href="/" id="ember565" className="ember-view"> 
-                <img src="https://assets.adira.one/motor/assets/revamp-icons/back_mobile.svg"/>Kembali
+                <img src="https://assets.adira.one/motor/assets/revamp-icons/back_mobile.svg" alt="back"/>Kembali
                 </a>
             </div>
             <h3>Form pengajuan</h3>
